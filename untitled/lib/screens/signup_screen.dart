@@ -4,13 +4,14 @@ import 'package:untitled/models/user_model.dart';
 import 'package:untitled/screens/home_screen.dart';
 
 class SignUpScreen extends StatefulWidget {
-  //const SignUpScreen({Key key}) : super(key: key);
+  const SignUpScreen({Key key}) : super(key: key);
 
   @override
   _SignUpScreenState createState() => _SignUpScreenState();
 }
 
 class _SignUpScreenState extends State<SignUpScreen> {
+
   final _nameController = TextEditingController();
   final _emailController = TextEditingController();
   final _passController = TextEditingController();

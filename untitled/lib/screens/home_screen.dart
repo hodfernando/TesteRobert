@@ -121,6 +121,9 @@ class _HomeScreen extends State<HomeScreen> {
                   child: Text("Sair"),
                   onPressed: (){
                     model.signOut();
+                    Navigator.of(context).pushReplacement(
+                        MaterialPageRoute(builder: (context) => LoginScreen())
+                    );
                   },
                 ),
               ],
