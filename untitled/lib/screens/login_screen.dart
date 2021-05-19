@@ -53,6 +53,7 @@ import 'home_screen.dart';
                padding: EdgeInsets.all(16.0),
                children: <Widget>[
                  TextFormField(
+                   controller: _emailController,
                    decoration: InputDecoration(
                        hintText: "E-mail"
                    ),
@@ -63,6 +64,7 @@ import 'home_screen.dart';
                  ),
                  SizedBox(height: 16.0,),
                  TextFormField(
+                   controller: _passController,
                    decoration: InputDecoration(
                        hintText: "Senha"
                    ),
@@ -89,7 +91,6 @@ import 'home_screen.dart';
                    color: Theme.of(context).primaryColor,
                    onPressed: (){
                      if(_formKey.currentState.validate()){
-
                      model.signIn(
                        email: _emailController.text,
                        pass: _passController.text,
