@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "527882373402",
-    "project_id": "teste-e60f7",
-    "storage_bucket": "teste-e60f7.appspot.com"
+    "project_number": "551106022022",
+    "project_id": "digcoin-dev",
+    "storage_bucket": "digcoin-dev.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:527882373402:android:92c310806c14aeb9af84a3",
+        "mobilesdk_app_id": "1:551106022022:android:598d06f995c0d16f155f07",
         "android_client_info": {
           "package_name": "br.com.teste.untitled"
         }
       },
       "oauth_client": [
         {
-          "client_id": "527882373402-894ud2bnl0pcrnjh0t42dqjevdilffdc.apps.googleusercontent.com",
+          "client_id": "551106022022-ccjfi2nrhbkqq2bdpp78se8fmo1mjeoe.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyD-VanW1wGubKcJ8yp6nLjd-n7RoaXZCFU"
+          "current_key": "AIzaSyCfV694iOrbk7ZK5p4jHJ-D5VhVD-xCbeg"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "527882373402-894ud2bnl0pcrnjh0t42dqjevdilffdc.apps.googleusercontent.com",
+              "client_id": "551106022022-ccjfi2nrhbkqq2bdpp78se8fmo1mjeoe.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
