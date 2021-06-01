@@ -1,10 +1,7 @@
-import 'dart:ffi';
-
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:scoped_model/scoped_model.dart';
-import 'package:untitled/screens/signup_screen.dart';
 import 'dart:async';
 
 class UserModel extends Model {
@@ -77,7 +74,7 @@ class UserModel extends Model {
 
   }
 
-  void recoverPass(@required String email){
+  void recoverPass(String email){
     _auth.sendPasswordResetEmail(email: email);
   }
 

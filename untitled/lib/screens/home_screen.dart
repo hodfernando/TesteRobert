@@ -3,7 +3,6 @@ import 'package:flutter/services.dart';
 import 'package:intl/intl.dart';
 import 'package:scoped_model/scoped_model.dart';
 import 'package:untitled/models/user_model.dart';
-import 'package:flutter_masked_text/flutter_masked_text.dart';
 import 'package:untitled/screens/login_screen.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -77,6 +76,7 @@ class _HomeScreen extends State<HomeScreen> {
                   },
                   validator: (text) {
                     if (text.isEmpty) return "Sem valor a ser enviado!";
+                    return "";
                   },
                 ),
                 SizedBox(height: 16.0,),
@@ -87,6 +87,7 @@ class _HomeScreen extends State<HomeScreen> {
                   ),
                   validator: (text) {
                     if (text.isEmpty) return "Sem mensagem a ser enviada!";
+                    return "";
                   },
                 ),
                 SizedBox(height: 16.0,),

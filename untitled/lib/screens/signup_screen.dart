@@ -43,6 +43,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                   ),
                   validator: (text){
                     if(text.isEmpty) return "Nome inválido!";
+                    return "";
                   },
                 ),
                 SizedBox(height: 16.0,),
@@ -54,6 +55,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                   keyboardType: TextInputType.emailAddress,
                   validator: (text){
                     if(text.isEmpty || !text.contains("@")) return "E-mail inválido!";
+                    return "";
                   },
                 ),
                 SizedBox(height: 16.0,),
@@ -65,6 +67,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                   obscureText: true,
                   validator: (text){
                     if(text.isEmpty || text.length < 6) return "Senha inválida!";
+                    return "";
                   },
                 ),
                 SizedBox(height: 16.0,),

@@ -60,6 +60,7 @@ import 'home_screen.dart';
                    keyboardType: TextInputType.emailAddress,
                    validator: (text){
                      if(text.isEmpty || !text.contains("@")) return "E-mail inválido!";
+                     return "";
                    },
                  ),
                  SizedBox(height: 16.0,),
@@ -71,6 +72,7 @@ import 'home_screen.dart';
                    obscureText: true,
                    validator: (text){
                      if(text.isEmpty || text.length < 6) return "Senha inválida!";
+                     return "";
                    },
                  ),
                  Align(
