@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "551106022022",
+    "project_id": "digcoin-dev",
+    "storage_bucket": "digcoin-dev.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:551106022022:android:598d06f995c0d16f155f07",
+        "android_client_info": {
+          "package_name": "br.com.teste.untitled"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "551106022022-ccjfi2nrhbkqq2bdpp78se8fmo1mjeoe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfV694iOrbk7ZK5p4jHJ-D5VhVD-xCbeg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "551106022022-ccjfi2nrhbkqq2bdpp78se8fmo1mjeoe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
